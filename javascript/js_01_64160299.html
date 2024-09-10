@@ -1,0 +1,43 @@
+<h1> JavaScript 1.1 : 1 point </h1>
+- คลิกที่ปุ่ม "คลิกที่นี่ JS1.1" จะแสดงข้อความ My name is และตามด้วยชื่อของตนเอง <br><br>
+
+
+<!-- Coding JavaScript 1.1 here!!!! -->
+
+<button class="btn btn-primary" id="btn1_1">คลิกที่นี่ JS1.1</button>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    
+<script>
+    $(document).ready(function(){
+        $("#btn1_1").click(function(){
+            alert("My name is Rachata")
+            // $("#message").html("<i>My name is Rachata</i>");
+            // var newElement = $("<p><i>My name is Rachata</i></p>");
+            // $("body").append(newElement); 
+        })
+    });
+</script>
+
+<!-- Coding JavaScript 1.1 here!!!! -->
+<hr>
+
+
+<h1> JavaScript 1.2 : 2 points </h1>
+- คลิกที่ปุ่ม "คลิกที่นี่ JS1.2" จะแสดงกล่องข้อความให้บันทึกข้อความ และแสดงจำนวนตัวอักษรในข้อความนั้น <br><br>
+
+<!-- Coding JavaScript 1.2 here!!!! -->
+
+<button class="btn btn-primary" id="btn1_2">คลิกที่นี่ JS1.2</button>
+
+<script>
+    $(document).ready(function(){
+        $("#btn1_2").click(function(){
+            let value = prompt('Please enter your words');
+            let valueCount = value.length;
+            alert("จำนวน Character ของ " + value + " = " + valueCount);
+        })
+    });
+</script>
+
+<!-- Coding JavaScript 1.2 here!!!! -->
